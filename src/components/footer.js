@@ -2,10 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Footer = ({ siteTitle }) => (
   <header
     style={{
-      background: `green`,
+      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -39,4 +39,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Footer;
